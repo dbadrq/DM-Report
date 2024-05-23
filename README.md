@@ -35,6 +35,7 @@ The project follows the CRISP-DM methodology, consisting of the following phases
 ## Files and Scripts
 - `forecast.py`: Script for training and evaluating the Random Forest model on the heart disease dataset.
 - `Gantt.py`: Script for generating a detailed Gantt chart for the project timeline.
+- `Overview_Gantt.py`: Script for generating a Gantt chart for an overview of the project schedule.
 - `WBS.py`: Script for creating a Work Breakdown Structure (WBS) of the project phases and tasks.
 
 ## Usage Instructions
@@ -63,7 +64,13 @@ The project follows the CRISP-DM methodology, consisting of the following phases
     ```
     This script will create a detailed Gantt chart illustrating the project timeline.
 
-3. **Create the Work Breakdown Structure (WBS)**:
+3. **Generate the Gantt Chart**:
+    ```bash
+    python Overview_Gantt.py
+    ```
+    This script will create an overview Gantt chart illustrating the project timeline.
+
+4. **Create the Work Breakdown Structure (WBS)**:
     ```bash
     python WBS.py
     ```
@@ -74,6 +81,7 @@ The project follows the CRISP-DM methodology, consisting of the following phases
 ├── README.md
 ├── forecast.py
 ├── Gantt.py
+├── Overview_Gantt.py
 ├── WBS.py
 
 ## Contributing
